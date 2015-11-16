@@ -9,7 +9,7 @@
 
 .back-img{
   background-image: url(http://placehold.it/640x550);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: left top;
   background-size: 100%;
 }
