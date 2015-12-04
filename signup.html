@@ -22,7 +22,7 @@
 <div class="grid">
   <nav id="nav" class="unit xs-1 s-1 m-1 l-1">
     <ol class="list-group list-group--inline push-0">
-        <li class="island-half"><a href="index.html">StudioRoom</a></li>
+        <li class="island-quarter"><a href="index.html"><img class="logo-size" src="images/logo.png" alt=""></a></li>
         <li class="island-half"><a href="tour.html">Tour</a></li>
         <li class="island-half"><a href="price.html">Pricing</a></li>
         <li class="island-quarter media__img--reversed current"><a class="btn-2" href="#">Sign Up</a></li>
@@ -34,6 +34,62 @@
 </header>
 
 <main id="main" role="main">
+
+<form action="https://formspree.io/paqu0323@algonquinlive.com" method="post">
+<div>
+  <label for="first">First</label>
+  <input id="first" name="name">
+</div>
+
+<div>
+  <label for="last">Last</label>
+  <input id="last" name="name">
+</div>
+
+<div>
+  <label for="pass">Password</label>
+  <input id="pass" type="password" name="password">
+</div>
+
+<div>
+  <label for="email">Email</lable>
+  <input id="email" type="email" name="email" required placeholder="you@example.com">
+</div>
+
+<div>
+  <label for="subject">Membership</label>
+  <select id="subject" name="_subject">
+  <option>Basic Membership</option>
+  <option>Elite Membership</option>
+</div>
+
+<fieldset>
+  <legend>Payment Method</legend>
+  <input id="visa" type="radio" name="payment">
+  <label for="visa">Visa</label>
+
+  <input id="master" type="radio" name="payment">
+  <label for="master">Matercard</label>
+
+  <input id="amex" type="radio" name="payment">
+  <label for="amex">American Express</label>
+
+  <input id="paypal" type="radio" name="payment">
+  <label for="paypal">PayPal</label>
+</fieldset>
+
+
+<div>
+  <label for="message">Comments</label>
+  <textarea id="message" name="message"></textarea>
+
+</div>
+
+<div>
+  <button type="submit">Submit</button>
+</div>
+
+</form>
 
 </main>
 

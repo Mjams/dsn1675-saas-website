@@ -1,23 +1,23 @@
 .btn{
   display: inline-block;
   padding: 1em;
-  background-color: lightblue;
+  background-color: #5050ad;
   border-radius: 10px;
   text-decoration: none;
   color: #fff;
 }
 
 .back-img{
-  background-image: url(http://placehold.it/640x550);
+  background-image: url(../images/background.jpg);
   background-repeat: repeat;
   background-position: left top;
-  background-size: 100%;
+  background-size: 600px;
 }
 
 .btn-2{
   display: inline-block;
   padding: 0.5em;
-  background-color: lightblue;
+  background-color: #5050ad;
   border-radius: 10px;
   text-decoration: none;
   color: #fff;
@@ -29,10 +29,16 @@
     display: inline-block;
     padding: 0.5em;
   }
-
-
 }
 
 .current{
-  border: 5px solid lightblue;
+  background-color: #5050ad;
+}
+
+.white-txt{
+  color: #fff;
+}
+
+.blue-back{
+  background-color: #14143a;
 }

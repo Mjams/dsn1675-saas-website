@@ -282,3 +282,8 @@ input:focus, textarea:focus, button:focus {
 
   /*! End HTML5 Boilerplate code */
 }
+
+
+.logo-size{
+  width: 100px;
+}
