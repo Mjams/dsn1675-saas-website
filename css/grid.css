@@ -394,3 +394,7 @@
   -webkit-align-self: center;
   align-self: center;
 }
+
+.max-width{
+  width: 100%;
+}

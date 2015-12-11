@@ -9,9 +9,9 @@
 
 .back-img{
   background-image: url(../images/background.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: left top;
-  background-size: 600px;
+  background-size: 100%;
 }
 
 .btn-2{
@@ -41,4 +41,12 @@
 
 .blue-back{
   background-color: #14143a;
+}
+
+button, label{
+  cursor: pointer;
+}
+
+.card-width{
+  width: 4em;
 }

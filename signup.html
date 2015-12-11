@@ -6,6 +6,7 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width, intial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -20,50 +21,58 @@
 
 <header role="banner">
 <div class="grid">
-  <nav id="nav" class="unit xs-1 s-1 m-1 l-1">
+  <nav id="nav" class="blue-back unit xs-1 s-1 m-1 l-1">
     <ol class="list-group list-group--inline push-0">
         <li class="island-quarter"><a href="index.html"><img class="logo-size" src="images/logo.png" alt=""></a></li>
-        <li class="island-half"><a href="tour.html">Tour</a></li>
-        <li class="island-half"><a href="price.html">Pricing</a></li>
+        <li class="island-half"><a class="white-txt" href="tour.html">Tour</a></li>
+        <li class="island-half"><a class="white-txt" href="price.html">Pricing</a></li>
         <li class="island-quarter media__img--reversed current"><a class="btn-2" href="#">Sign Up</a></li>
     </ol>
   </nav>
 </div>
+</header>
+
+<div class="grid">
+  <div class="unit xs-1 unit-xs-centered s-1 m-1 l-1-2">
 
 <h1 class="text-center">StudioRoom</h1>
-</header>
 
 <main id="main" role="main">
 
-<form action="https://formspree.io/paqu0323@algonquinlive.com" method="post">
-<div>
+<form class="island" action="https://formspree.io/paqu0323@algonquinlive.com" method="post">
+
+  <div class="island-quarter">
+    <label for="subject">Membership</label>
+    <select id="subject" name="_subject">
+    <option>1 Month Free Membership</option>
+    <option>Basic Membership</option>
+    <option>Elite Membership</option>
+    </select>
+  </div>
+<div class="grid">
+
+<div class="island-quarter unit xs-1 s-1 m-1-2 l-1-2">
   <label for="first">First</label>
-  <input id="first" name="name">
+  <input class="max-width" id="first" name="name">
 </div>
 
-<div>
+<div class="island-quarter unit xs-1 s-1 m-1-2 l-1-2">
   <label for="last">Last</label>
-  <input id="last" name="name">
+  <input class="max-width" id="last" name="name">
 </div>
 
-<div>
+<div class="island-quarter unit xs-1 s-1 m-1 l-1">
   <label for="pass">Password</label>
   <input id="pass" type="password" name="password">
 </div>
 
-<div>
+<div class="island-quarter unit xs-1 s-1 m-1 l-1">
   <label for="email">Email</label>
-  <input id="email" type="email" name="email" required placeholder="you@example.com">
+  <input class="max-width" id="email" type="email" name="email" required placeholder="you@example.com">
+</div>
 </div>
 
-<div>
-  <label for="subject">Membership</label>
-  <select id="subject" name="_subject">
-  <option>Basic Membership</option>
-  <option>Elite Membership</option>
-  </select>
-</div>
-
+<div class="island-half">
 <fieldset>
   <legend>Payment Method</legend>
   <input id="visa" type="radio" name="payment">
@@ -78,12 +87,58 @@
   <input id="paypal" type="radio" name="payment">
   <label for="paypal">PayPal</label>
 </fieldset>
+</div>
 
+<div class="island-quarter">
+  <label for="card">Card Number</label>
+  <input class="card-width" id="card" name="number">
+  <input class="card-width" name="number">
+  <input class="card-width" name="number">
+  <input class="card-width" name="number">
+</div>
 
-<div>
+<div class="grid island-quarter">
+  <div class="unit xs-1 s-1 m-1 l-1">
+    <p class="push-0">Expiration Date</p>
+  </div>
+
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+  <label for="month">Month</label>
+  <select id="month" name="_subject">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+  </select>
+</div>
+
+<div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+  <label for="year">Year</label>
+  <select id="year" name="_subject">
+    <option>2015</option>
+    <option>2016</option>
+    <option>2017</option>
+    <option>2018</option>
+    <option>2019</option>
+    <option>2020</option>
+    <option>2021</option>
+    <option>2022</option>
+    <option>2023</option>
+  </select>
+</div>
+</div>
+
+<div class="island-quarter">
   <label for="message">Comments</label>
   <textarea id="message" name="message"></textarea>
-
 </div>
 
 <div>
@@ -96,13 +151,16 @@
 
 </main>
 
-<footer class="island" role="contentinfo">
+</div>
+</div>
+
+<footer class="blue-back island" role="contentinfo">
 <nav class="">
   <ul class="list-group push-0">
-    <li class="inline-list"><a href="#">StudioRoom 2015</a></li>
-    <li class="inline-list"><a href="#">All Rights reserved</a></li>
-    <li class="inline-list"><a href="#">Privacy Policy</a></li>
-    <li class="inline-list"><a href="#">Terms of use</a></li>
+    <li class="inline-list"><a class="white-txt" href="#">StudioRoom 2015</a></li>
+    <li class="inline-list"><a class="white-txt" href="#">All Rights reserved</a></li>
+    <li class="inline-list"><a class="white-txt" href="#">Privacy Policy</a></li>
+    <li class="inline-list"><a class="white-txt" href="#">Terms of use</a></li>
   </ul>
 </nav>
 </footer>
